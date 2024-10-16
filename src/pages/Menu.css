@@ -1,0 +1,85 @@
+/* src/pages/Menu.css */
+.menu {
+  padding: 2rem; /* Add padding around the menu */
+  background-color: #f9f9f9; /* Light background color for contrast */
+  text-align: center; /* Center text */
+}
+
+h1 {
+  font-size: 2.5rem; /* Larger font size for the heading */
+  color: #4a4a4a; /* Darker shade for the heading for a classic look */
+  margin-bottom: 2rem; /* Space below the heading */
+  font-weight: bold; /* Bold heading */
+  text-transform: uppercase; /* Uppercase letters for a classic touch */
+  letter-spacing: 2px; /* Spacing between letters */
+  font-family: 'Georgia', serif; /* Classic serif font */
+}
+
+.menu-grid {
+  display: grid; /* Use grid layout for menu items */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 1.5rem; /* Space between grid items */
+}
+
+.menu-item {
+  background-color: #fff; /* White background for menu items */
+  border: 1px solid #ddd; /* Slightly darker grey border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+  overflow: hidden; /* Prevents overflow of image */
+}
+
+.menu-item:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.menu-item img {
+  width: 100%; /* Full width for images */
+  height: auto; /* Maintain aspect ratio */
+  border-top-left-radius: 8px; /* Round top corners of the image */
+  border-top-right-radius: 8px; /* Round top corners of the image */
+}
+
+.menu-item-details {
+  padding: 1rem; /* Padding around details */
+  text-align: left; /* Left-align text */
+}
+
+.menu-item-details h2 {
+  font-size: 1.5rem; /* Font size for item name */
+  color: #333; /* Dark color for item name */
+  margin: 0.5rem 0; /* Space around item name */
+  font-family: 'Georgia', serif; /* Use classic font for item name */
+  font-weight: normal; /* Normal weight for item name */
+}
+
+.menu-item-details p {
+  font-size: 1.2rem; /* Font size for price */
+  color: #555; /* Dark grey color for price */
+  margin: 0; /* No margin for price */
+}
+
+.menu-item button {
+  background-color: #b22222; /* Dark red background for a classic look */
+  color: white; /* White text for button */
+  border: none; /* No border */
+  border-radius: 4px; /* Slightly rounded corners */
+  padding: 0.5rem 1rem; /* Padding for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+  font-size: 1rem; /* Font size for button */
+  font-weight: bold; /* Bold button text */
+}
+
+.menu-item button:hover {
+  background-color: #8b0000; /* Darker red on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem; /* Smaller heading on mobile */
+  }
+}

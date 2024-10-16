@@ -1,0 +1,133 @@
+/* Signup.css */
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .signup-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #34495e;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #34495e;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #219653;
+  }
+  
+  .toggle-form {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .toggle-form a {
+    color: #27ae60;
+    text-decoration: none;
+  }
+  
+  .toggle-form a:hover {
+    text-decoration: underline;
+  }
+/* Signup.css */
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .signup-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #34495e;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #34495e;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #219653;
+  }
+  
+  .toggle-form {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .toggle-form a {
+    color: #27ae60;
+    text-decoration: none;
+  }
+  
+  .toggle-form a:hover {
+    text-decoration: underline;
+  }
+    

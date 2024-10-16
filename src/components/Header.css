@@ -1,0 +1,105 @@
+/* Navbar Container */
+.unique-navbar {
+  background-color: #f5f5f5; /* Warm light background */
+  border-bottom: 2px solid #ccc; /* Subtle border */
+  padding: 1rem 3rem;
+  font-family: 'Georgia', serif; /* Classic serif font */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Scroll Effect */
+.unique-navbar.scrolled {
+  background-color: #e0e0e0; /* Slightly darker on scroll */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Shadow effect */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-size: 2.5rem;
+  color: #4a4a4a; /* Darker classic color */
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #333; /* Darker on hover */
+}
+
+/* Navbar Toggler Icon */
+.navbar-toggler {
+  border: 2px solid #4a4a4a;
+  border-radius: 5px;
+}
+
+.navbar-toggler-icon {
+  filter: invert(0); /* Dark icon */
+}
+
+/* Navbar Items */
+.navbar-nav .nav-item {
+  margin-left: 2rem; /* Spacing between items */
+}
+
+/* Navbar Links */  
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4a4a4a; /* Dark text color */
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #4a4a4a;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::before,
+.navbar-nav .nav-link.active::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.navbar-nav .nav-link:hover {
+  color: #333; /* Slightly darker hover */
+  transform: translateY(-2px); /* Lift on hover */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 991px) {
+  .unique-navbar {
+    padding: 1rem;
+  }
+
+  .navbar-nav {
+    text-align: center; /* Center items on small screens */
+  }
+
+  .navbar-nav .nav-item {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+}
+
+/* Scroll Transition */
+html {
+  scroll-behavior: smooth;
+}

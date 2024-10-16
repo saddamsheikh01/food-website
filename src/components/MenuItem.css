@@ -1,0 +1,61 @@
+/* src/components/MenuItem.css */
+.menu-item {
+  background-color: #fff; /* White background for menu items */
+  border: 1px solid #ddd; /* Light grey border for subtle separation */
+  border-radius: 10px; /* Soft rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Gentle shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+  overflow: hidden; /* Ensure content stays within the item container */
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  justify-content: space-between;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+.menu-item img {
+  width: 100%; /* Full width for images */
+  height: auto; /* Maintain aspect ratio */
+  border-top-left-radius: 10px; /* Match the rounded corners */
+  border-top-right-radius: 10px;
+}
+
+.menu-item-details {
+  padding: 1.5rem; /* Padding around item details */
+  text-align: center; /* Center the content */
+}
+
+.menu-item-details h2 {
+  font-size: 1.5rem; /* Larger font for item name */
+  color: #4a4a4a; /* Dark grey color for a classic look */
+  margin: 1rem 0; /* Add space above and below the name */
+  font-family: 'Georgia', serif; /* Classic serif font */
+  font-weight: 600; /* Semi-bold weight */
+  letter-spacing: 1px; /* Slight letter spacing */
+}
+
+.menu-item-details p {
+  font-size: 1.25rem; /* Font size for price */
+  color: #666; /* Softer grey for price text */
+  margin-bottom: 1rem; /* Space below the price */
+}
+
+.menu-item button {
+  background-color: #0fdf2a; /* Dark red background for a classic look */
+  color: #fff; /* White text for contrast */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded button corners */
+  padding: 0.75rem 1.5rem; /* Padding for the button */
+  font-size: 1rem; /* Button text size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for button */
+}
+
+.menu-item button:hover {
+  background-color: #2c8b00; /* Darker red on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+}

@@ -1,0 +1,110 @@
+/* Cart.css */
+.cart {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  background-color: #f4f4f4; /* Soft light gray for background */
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); /* Softer shadow for classic elegance */
+  font-family: 'Merriweather', serif; /* Elegant serif font for a timeless look */
+}
+
+h1 {
+  font-size: 3rem;
+  color: #2c3e50; /* Darker classic text color */
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase; /* Classic uppercase styling */
+  border-bottom: 2px solid #ddd; /* Bottom border under the heading */
+  padding-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #555; /* Softer text color for empty cart message */
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Space between each cart item */
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff; /* Classic white background */
+  border: 1px solid #d1d1d1; /* Soft border around each item */
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Subtle shadow for a sophisticated look */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cart-item:hover {
+  transform: translateY(-5px); /* Slight hover lift */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12); /* Stronger shadow on hover */
+}
+
+.cart-item img {
+  max-width: 100px;
+  border-radius: 8px; /* Slight rounding for a classy look */
+  border: 2px solid #e0e0e0; /* Thin border around images */
+}
+
+.cart-item-details {
+  flex: 1;
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+.cart-item-details h2 {
+  font-family: 'Merriweather', serif; /* Elegant serif font */
+  font-size: 1.8rem;
+  color: #34495e; /* Dark classic color for the item name */
+  margin-bottom: 0.5rem;
+}
+
+.cart-item-details p {
+  font-size: 1.4rem;
+  color: #7f8c8d; /* Softer gray for the price */
+  margin-bottom: 0.5rem;
+}
+
+button {
+  background-color: #8e44ad; /* Rich purple for a more refined button color */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #6c3483; /* Darker purple on hover */
+  transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+.cart-total {
+  text-align: right;
+  margin-top: 2.5rem;
+  border-top: 2px solid #ddd; /* Thicker border above the total */
+  padding-top: 1.5rem;
+}
+
+.cart-total h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  color: #2c3e50; /* Dark text color for total */
+  font-weight: bold;
+  text-transform: uppercase; /* Classic uppercase styling */
+}

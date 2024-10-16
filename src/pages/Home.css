@@ -1,0 +1,27 @@
+/* src/pages/Home.css */
+.home {
+  background: url('../assets/images/food-bg.jpg.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: rgb(33, 56, 19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 0 20px;
+
+}
+.home-content {
+  text-align: center;
+  padding: 20px 40px 40px 20px;
+
+  max-width: 800px;
+
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(43, 66, 7, 0.658);
+
+}
+
